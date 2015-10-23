@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8"/>
+    <script src="Scripts\jquery-2.1.4.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            var empJson = {
+                "Padam": {
+                    "firstName": "Padam",
+                    "lastName": "Bhandari",
+                    "gender": "Male",
+                    "salary": 5000
+                },
+
+                "Jane": {
+                    "firstName": "Jane",
+                    "lastName": "Doe",
+                    "gender": "Female",
+                    "salary": 7000
+                }
+            };
+
+            $('#divResult').html(empJson.Padam.lastName);
+        });
+    </script>
+    <title></title>
+</head>
+<body style="font-family: Arial">
+<div id="divResult"></div>
+
+</body>
+</html>
