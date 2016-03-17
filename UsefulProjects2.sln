@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HtmlEncodeDemo", "HtmlEncod
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PowerScriptDemo", "PowerScriptDemo\PowerScriptDemo.csproj", "{966FE8B8-DFC5-46FE-9482-456D1FF0F394}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HardCodedParameterDemo", "HardCodedParameterDemo\HardCodedParameterDemo.csproj", "{143D61A7-3C3F-466E-B346-07B3215790F8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{966FE8B8-DFC5-46FE-9482-456D1FF0F394}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{966FE8B8-DFC5-46FE-9482-456D1FF0F394}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{966FE8B8-DFC5-46FE-9482-456D1FF0F394}.Release|Any CPU.Build.0 = Release|Any CPU
+		{143D61A7-3C3F-466E-B346-07B3215790F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{143D61A7-3C3F-466E-B346-07B3215790F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{143D61A7-3C3F-466E-B346-07B3215790F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{143D61A7-3C3F-466E-B346-07B3215790F8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
